@@ -5,14 +5,14 @@ import string
 import threading
 from telebot import types
 
-API_KEY = "YOUR_BOT_TOKEN"  # your bot token
+API_KEY = "8448172296:AAH2gsYUvkdnCcDSYC26zqeJDTwhLQuhzOw"  # your bot token
 bot = telebot.TeleBot(API_KEY)
 bot.delete_webhook()
 
 bot_id = 'DEVSUDIPX'
-admin_ids = [7967175667]  # add your Telegram ID here
-private_group_invite = "https://t.me/+yourPrivateGroupInviteCode"  # private group invite link
-database_channel_id = -1002425319175  # your hidden database channel id
+admin_ids = [7728041999]  # add your Telegram ID here
+private_group_invite = "https://t.me/+vsySMDsO6zQ3Yzk1"  # private group invite link
+database_channel_id = -1003124005319  # your hidden database channel id
 
 admin_uploads = {}
 user_last_code = {}  # store last used code per user
